@@ -1,4 +1,5 @@
 # CSharpColumnBasedStringFormatter
+<pre> ``` 
 A C# class that aims at column-based string formatting. Including aligning ,algorithm selection ,padding-space ... 
 
 Example usage :
@@ -64,6 +65,8 @@ This   is     made  for  string  formatting
 Aqua my waifu !
 
 */
+
+``` </pre>
 
 
 
