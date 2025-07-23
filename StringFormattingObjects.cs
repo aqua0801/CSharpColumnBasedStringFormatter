@@ -207,7 +207,7 @@ namespace StringFormatting
             private Func<string, float> CalculateWidthAlgorithm;
             /// <summary>
             /// Padding algorithm
-            /// Param : TextToBePadding , PaddingString , TargetWidth
+            /// Param : TextToBePadded , PaddingString , TargetWidth
             /// Return : Padded string 
             /// </summary>
             private Func<string, string, float, string> PadStringAlgorithm;
@@ -334,7 +334,7 @@ namespace StringFormatting
             }
 
             /// <summary>
-            /// Add string without without considering width.
+            /// Add string without considering width.
             /// </summary>
             public void AddStringTemps(string TextToAdd)
             {
